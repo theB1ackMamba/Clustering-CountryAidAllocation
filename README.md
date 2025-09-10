@@ -7,7 +7,8 @@ It includes both a **Jupyter Notebook** for analysis and a **Streamlit app** for
 
 ## 📂 Project Structure
 
-Clustering/
+'''
+Clustering-CountryAidAllocation/
 │
 ├── notebooks/ # Jupyter notebooks (exploration & model building)
 │ └── Clustering_DS_Portfolio.ipynb
@@ -24,20 +25,24 @@ Clustering/
 ├── requirements.txt # Python dependencies for deployment
 ├── .gitignore # Ignore virtual env, cache, etc.
 └── README.md # Project documentation
+'''
 
 ---
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/<your-username>/clustering-project.git
-cd clustering-project
+1️⃣ Clone the repository
+
+git clone https://github.com/theB1ackMamba/Clustering-CountryAidAllocation.git
+cd Clustering-CountryAidAllocation
 
 2️⃣ Create and activate a virtual environment
-python -m venv venv
-venv\Scripts\activate   # On Windows
-source venv/bin/activate # On macOS/Linux
+
+python -m venv <your-virtual-environment-name>
+# On Windows
+<your-virtual-environment-name>\Scripts\activate  
+# On macOS/Linux
+source <your-virtual-environment-name>/bin/activate
 
 3️⃣ Install dependencies
 pip install -r requirements.txt
@@ -54,8 +59,7 @@ Clustering pipeline (AgglomerativeClustering)
 Cluster evaluation & visualization
 
 📌 Notes
-Agglomerative Clustering doesn’t support .predict(), so production usage is limited.
-Virtual environments (e.g., capsule/) are excluded from GitHub via .gitignore.
+Virtual environments are excluded from GitHub via .gitignore.
 
 🛠️ Built With
 
