@@ -1,73 +1,82 @@
-# Clustering Project
+    # Clustering Project - CountryAidAllocation
 
-This project demonstrates **unsupervised learning** using clustering techniques.  
-It includes both a **Jupyter Notebook** for analysis and a **Streamlit app** for deployment.
+    This project demonstrates **unsupervised learning** using clustering techniques.  
+    It includes both a **Jupyter Notebook** for analysis and a **Streamlit app** for deployment.
 
----
+    ---
 
-## 📂 Project Structure
+    ## 📂 Project Structure
 
-'''
-Clustering-CountryAidAllocation/
-│
-├── notebooks/ # Jupyter notebooks (exploration & model building)
-│ └── Clustering_DS_Portfolio.ipynb
-│
-├── app/ # Streamlit app for deployment
-│ └── app.py
-│
-├── model/ # Serialized pipeline(s)
-│ └── pipeline.pkl
-│
-├── data/ # CSV files (if applicable)
-│ └── CountryAidAllocation.csv
-│
-├── requirements.txt # Python dependencies for deployment
-├── .gitignore # Ignore virtual env, cache, etc.
-└── README.md # Project documentation
-'''
+    ```text
+    Clustering-CountryAidAllocation/
+    │
+    ├── notebooks/ # Jupyter notebooks (exploration & model building)
+    │ └── Clustering_DS_Portfolio.ipynb
+    │
+    ├── app/ # Streamlit app for deployment
+    │ └── app.py
+    │
+    ├── model/ # Serialized pipeline(s)
+    │ └── pipeline.pkl
+    │
+    ├── data/ # CSV files (if applicable)
+    │ └── CountryAidAllocation.csv
+    │
+    ├── requirements.txt # Python dependencies for deployment
+    ├── .gitignore # Ignore virtual env, cache, etc.
+    └── README.md # Project documentation
+    ```
 
----
+    ---
 
-## ⚙️ Setup Instructions
+    ## ⚙️ Setup Instructions
 
-1️⃣ Clone the repository
+    1️⃣ Clone the repository
 
-git clone https://github.com/theB1ackMamba/Clustering-CountryAidAllocation.git
-cd Clustering-CountryAidAllocation
+    ```bash
+    git clone https://github.com/theB1ackMamba/Clustering-CountryAidAllocation.git
+    cd Clustering-CountryAidAllocation
+    ```
 
-2️⃣ Create and activate a virtual environment
+    2️⃣ Create and activate a virtual environment
 
-python -m venv <your-virtual-environment-name>
-# On Windows
-<your-virtual-environment-name>\Scripts\activate  
-# On macOS/Linux
-source <your-virtual-environment-name>/bin/activate
+    ```bash
+    python -m venv <your-virtual-environment-name>
 
-3️⃣ Install dependencies
-pip install -r requirements.txt
+    # On Windows
+    <your-virtual-environment-name>\Scripts\activate  
 
-Running the Streamlit App
-streamlit run app/app.py
+    # On macOS/Linux
+    source <your-virtual-environment-name>/bin/activate
+    ```
 
-📊 Notebook
+    3️⃣ Install dependencies
+    
+    ```bash
+    pip install -r requirements.txt
 
-The notebooks/Clustering_DS_Portfolio.ipynb contains:
-Data exploration
-Feature preprocessing
-Clustering pipeline (AgglomerativeClustering)
-Cluster evaluation & visualization
+    Running the Streamlit App
+    streamlit run app/app.py
+    ```
 
-📌 Notes
-Virtual environments are excluded from GitHub via .gitignore.
+    📊 Notebook
 
-🛠️ Built With
+    The notebooks/Clustering_DS_Portfolio.ipynb contains:
+    Data exploration
+    Feature preprocessing
+    Clustering pipeline (AgglomerativeClustering)
+    Cluster evaluation & visualization
 
-Python 3.11
-Numpy 
-Pandas
-Seaborn
-Scikit-Learn
-Streamlit
-Matplotlib
+    📌 Notes
+    Virtual environments are excluded from GitHub via .gitignore.
+
+    🛠️ Built With
+
+    Python 3.11
+    Numpy 
+    Pandas
+    Seaborn
+    Scikit-Learn
+    Streamlit
+    Matplotlib
 
